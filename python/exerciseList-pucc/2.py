@@ -1,4 +1,4 @@
-#coding=utf8
+# Determine a área de um triângulo
 
 base = int(input("Digite a base: "))
 altura = int(input("Digite a altura: "))
