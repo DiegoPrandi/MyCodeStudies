@@ -1,4 +1,4 @@
-#Elabore um programa que faça a simulação de um caixa
+# Elabore um programa que faça a simulação de um caixa
 # de uma loja.
 # O usuário deverá digitar o Valor da Compra, o Valor Pago
 # pelo cliente.
