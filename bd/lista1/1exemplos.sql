@@ -1,0 +1,42 @@
+USE BD12022667;
+SHOW TABLES;
+CREATE TABLE clientes (id INT PRIMARY KEY, nome VARCHAR(100)
+NOT NULL, telefone VARCHAR(20), cidade VARCHAR(50));
+ALTER TABLE clientes ADD COLUMN email VARCHAR(100);
+ALTER TABLE clientes MODIFY COLUMN telefone
+VARCHAR(15);
+CREATE TABLE fornecedores (id INT PRIMARY KEY, nome VARCHAR(100) NOT NULL, telefone VARCHAR(15), email
+VARCHAR(100), cidade VARCHAR(50));
+SHOW TABLES;
+SELECT * FROM FORNECEDORES;
+CREATE TABLE funcionarios (
+id INT PRIMARY KEY AUTO_INCREMENT ,
+nome VARCHAR(100) NOT NULL ,
+cargo VARCHAR(50) DEFAULT 'Estagiário' ,
+salario DECIMAL(10,2) CHECK(salario > 0) ,
+email VARCHAR(150) UNIQUE ,
+telefone VARCHAR(20) ,
+data_admissao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ,
+ativo BOOLEAN DEFAULT TRUE ,
+observacoes TEXT
+);
+CREATE TABLE produtos (
+id INT PRIMARY KEY ,
+nome VARCHAR(100) NOT NULL ,
+preco DECIMAL(10,2) ,
+quantidade INT DEFAULT 0 ,
+data_cadastro DATE ,
+ativo BOOLEAN DEFAULT TRUE
+);
+ALTER TABLE produtos
+ADD COLUMN descricao TEXT;
+ALTER TABLE alunos
+ADD COLUMN email VARCHAR(100);
+ALTER TABLE produtos
+DROP COLUMN descricao ;
+SELECT * FROM funcionarios;
+ALTER TABLE funcionarios
+add COLUMN data_admissao DATE;
+ALTER TABLE funcionarios
+MODIFY COLUMN salario DECIMAL(12,2) CHECK(salario > 0);
+	
