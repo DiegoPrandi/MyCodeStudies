@@ -38,3 +38,6 @@ ADD COLUMN status VARCHAR(20) DEFAULT 'Ativo';
 SHOW TABLES;
 
 SELECT * FROM funcionarios;
+
+
+
