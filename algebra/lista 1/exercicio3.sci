@@ -1,0 +1,22 @@
+// ex 3
+A = [-1 2 9; 5 8 -11]
+B = [2 -3 8; -5 5 11]
+disp("a) A+B = ")
+disp(A+B)
+disp(" ")
+disp("b) (-2) * A = ")
+disp((-2) * A)
+disp(" ")
+disp("c) A^T * B")
+disp(A' * B)
+disp(" ")
+disp("d) A * B^T")
+disp(A * B')
+disp(" ")
+printf("e) a12 = %d\n", A(1,2))
+disp(" ")
+disp("f) 1ªlinha de A =")
+disp(A(1,:))
+disp(" ")
+disp("g) 2ªcoluna de B =")
+disp(B(:,2))
