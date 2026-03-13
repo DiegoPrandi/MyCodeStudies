@@ -1,0 +1,9 @@
+# Read an integer value X and print the 6 consecutive odd numbers from X, a value per line, including X if it is the case.
+
+x = int(input())
+if x % 2 == 0:
+    x+=1
+
+for i in range(6):
+    print(x)
+    x+=2
