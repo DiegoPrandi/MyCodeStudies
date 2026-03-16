@@ -1,0 +1,20 @@
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\bin\Debug\apListaAlunos.exe.config
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\bin\Debug\apListaAlunos.exe
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.AssemblyReference.cache
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.FrmAlunos.resources
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.Properties.Resources.resources
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.GenerateResource.cache
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.CoreCompileInputs.cache
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.exe
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.pdb
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\01-Estruturas\Listas Ligadas\apListaAlunos\bin\Debug\apListaAlunos.pdb
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\bin\Debug\apListaAlunos.exe.config
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\bin\Debug\apListaAlunos.exe
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\bin\Debug\apListaAlunos.pdb
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.AssemblyReference.cache
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.FrmAlunos.resources
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.Properties.Resources.resources
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.GenerateResource.cache
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.CoreCompileInputs.cache
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.exe
+P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.pdb

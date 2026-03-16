@@ -1,0 +1,15 @@
+23313;Fabrício Carvalho Malagodi;10,0
+23512;Diego Prandi Silva;10,0
+23620;Nathalli Vitória Esmerio;10,0
+24312;Gabriella Carolina Luz Rodrigues;10,0
+25522;Juan Henrique da Silva Melo;10,0
+25523;Kaio Lauro da Silva;10,0
+25528;Miguel de Oliveira de Souza;10,0
+25529;Pedro Felipe Araújo Silva;10,0
+25531;Rafael Pereira Passos;10,0
+25533;Roni Cleiton Souza Ferreira;10,0
+25538;Vinícius Augusto Beneti;10,0
+25637;Érik Henrique Andrade Meneguetti;10,0
+25640;João Paulo dos Santos;10,0
+25713;Gabriel de Souza Fonseca;10,0
+25715;Matheus Akio Araújo Seo;10,0

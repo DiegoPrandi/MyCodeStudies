@@ -1,0 +1,24 @@
+25336;Lucas Queiroz Barbi;6,0
+25343;Matheus Sousa de Oliveira;6,0
+25344;Moisés Filipe Telis de Lima;6,0
+25560;Daniel Da Silva Bisco;6,0	
+25565;Maria Vitória Mota De Oliveira;6,0
+25742;João Pedro Ferreira Da Silva Marinho;6,0
+26374;André Henrique Teixeira Cantarinho;6,0
+26375;Arthur Riva Otero;6,0	
+26378;Danilo Collado De Souza;6,0
+26379;Davi Alves Lopes;6,0
+26381;Enzo Faganello;6,0
+26385;Gustavo Leitão;6,0
+26386;Gustavo De Oliveira Abreu;6,0
+26389;Jonas Gomes Mota;6,0
+26390;João Carlos Santos Barbosa De Castro;6,0
+26391;João Pedro Campos Paniza;6,0
+26392;Kalel Rocha Da Silva;6,0
+26393;Luan Figueiredo Pereira;6,0
+26394;Luis Guilherme Cezar;6,0
+26396;Marcos Talberth Martins De Oliveira;6,0
+26397;Maria Fernanda Ito;6,0
+26398;Matheus Tauan Martins De Oliveira;6,0
+26401;Matias Trevisan;6,0
+26402;Miguel Jupy Rezende;6,0
