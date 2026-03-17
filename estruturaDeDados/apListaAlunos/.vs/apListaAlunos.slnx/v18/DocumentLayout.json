@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\",
+  "WorkspaceRootPath": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|c:\\users\\u23512\\desktop\\aplistaalunos\\listasimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:listasimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Desktop\\apListaAlunos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Desktop\\apListaAlunos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Desktop\\apListaAlunos\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Desktop\\apListaAlunos\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Desktop\\apListaAlunos\\nolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|c:\\users\\u23512\\documents\\mycodestudies\\estruturadedados\\aplistaalunos\\listasimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:listasimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\nolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1D009E-95E2-4390-A78C-D549B0C8B35C}|apListaAlunos.csproj|solutionrelative:nolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,50 +34,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T00:14:45.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "P:\\59-DesenvSistemas\\2026\\2o ano\\TI221 - Estruturas de Dados\\01-Estruturas\\Listas Ligadas\\apListaAlunos\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T22:40:58.414Z"
+              "WhenOpened": "2026-02-24T00:14:45.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T22:40:58.414Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ListaSimples.cs",
-              "DocumentMoniker": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\ListaSimples.cs",
+              "DocumentMoniker": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\ListaSimples.cs",
               "RelativeDocumentMoniker": "ListaSimples.cs",
-              "ToolTip": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\ListaSimples.cs",
+              "ToolTip": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\ListaSimples.cs",
               "RelativeToolTip": "ListaSimples.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAADwvyYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T00:01:35.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Aluno.cs",
               "RelativeDocumentMoniker": "Aluno.cs",
-              "ToolTip": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Aluno.cs",
+              "ToolTip": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Aluno.cs",
               "RelativeToolTip": "Aluno.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,9 +90,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "NoLista.cs",
-              "DocumentMoniker": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\NoLista.cs",
+              "DocumentMoniker": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\NoLista.cs",
               "RelativeDocumentMoniker": "NoLista.cs",
-              "ToolTip": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\NoLista.cs",
+              "ToolTip": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\NoLista.cs",
               "RelativeToolTip": "NoLista.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAvwB0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,15 +100,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\u23512\\Desktop\\apListaAlunos\\Form1.cs",
+              "ToolTip": "C:\\Users\\u23512\\Documents\\MyCodeStudies\\estruturaDeDados\\apListaAlunos\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAkwD4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T22:59:21.17Z"
+              "WhenOpened": "2026-02-23T22:59:21.17Z",
+              "EditorCaption": ""
             }
           ]
         }

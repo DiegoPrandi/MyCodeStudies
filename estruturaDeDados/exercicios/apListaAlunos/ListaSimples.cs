@@ -55,6 +55,23 @@ public class ListaSimples<Dado>
         quantosNos++;
     }
 
+    public void InserirAposFim(NoLista<Dado> novoNo)
+    {
+
+
+        novoNo.Prox = null;
+        // nao cira novo nó, reaproveita oq foi passado por parametro
+        // decidimos em que local "amarrar" o novo nó 
+        // que criamos:
+        if (EstaVazia)
+            primeiro = novoNo;  // é o 1o nó a ser inserido
+        else
+            ultimo.Prox = novoNo;
+
+        ultimo = novoNo;        // passa a ser o último da lista
+        quantosNos++;
+    }
+
     public void InserirAntesDoInicio(Dado novoDado)
     {
         // criamos um novo nó, que armazenará o novoDado
@@ -95,6 +112,12 @@ public class ListaSimples<Dado>
         int contadorDeNos = 0;
         // percorrer cada nó da lista
         // do primeiro ao fim e contar cada um
+        atual = primeiro; // atual aponta o 1o nó da lista
+        while (atual != null)
+        {
+            contadorDeNos++;
+            atual = atual.Prox;
+        }
 
         return contadorDeNos; 
     }
@@ -112,6 +135,21 @@ public class ListaSimples<Dado>
         // da listaA, o nó atualmente visitado da lista this 
         // Caso contrário, inclua, no final da listaB, o nó 
         // atualmente visitado da lista this
+
+        atual = primeiro;
+        while (atual != null)
+        {
+            NoLista<Dado> noSeguinteAoAtual = atual.Prox;
+            if (atual.Info.DeveSeparar())
+            {
+                listaA.InserirAposFim(atual);
+            }
+            else
+            {
+                listaB.InserirAposFim(atual);
+            }
+            atual = atual.Prox;
+        }
 
         var duasListas = new DuasListas<Dado>(listaA, listaB);
         return duasListas;

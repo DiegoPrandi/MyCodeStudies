@@ -18,3 +18,13 @@ P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de e
 P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.csproj.CoreCompileInputs.cache
 P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.exe
 P:\59-DesenvSistemas\2026\2o ano\TI221 - Estruturas de Dados\02-Correções de exercícios\Listas Ligadas\apListaAlunos\obj\Debug\apListaAlunos.pdb
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\bin\Debug\apListaAlunos.exe.config
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\bin\Debug\apListaAlunos.exe
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\bin\Debug\apListaAlunos.pdb
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.csproj.AssemblyReference.cache
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.FrmAlunos.resources
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.Properties.Resources.resources
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.csproj.GenerateResource.cache
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.csproj.CoreCompileInputs.cache
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.exe
+C:\Users\u23512\Documents\MyCodeStudies\estruturaDeDados\exercicios\apListaAlunos\obj\Debug\apListaAlunos.pdb

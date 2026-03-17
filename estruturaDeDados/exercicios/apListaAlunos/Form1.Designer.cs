@@ -208,6 +208,7 @@
             this.btnContarNos.TabIndex = 14;
             this.btnContarNos.Text = "1. Contar Nós";
             this.btnContarNos.UseVisualStyleBackColor = true;
+            this.btnContarNos.Click += new System.EventHandler(this.btnContarNos_Click);
             // 
             // lbQuantosNos
             // 
@@ -227,6 +228,7 @@
             this.btnSepararLista.TabIndex = 16;
             this.btnSepararLista.Text = "2. Separar";
             this.btnSepararLista.UseVisualStyleBackColor = true;
+            this.btnSepararLista.Click += new System.EventHandler(this.btnSepararLista_Click);
             // 
             // groupBox1
             // 

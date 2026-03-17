@@ -100,6 +100,20 @@ namespace apListaAlunos
             }
         }
 
+        private void btnContarNos_Click(object sender, EventArgs e)
+        {
+            int nosDalista1 = lista1.ContarNos();
+            lbQuantosNos.Text = "Quantos nós: "+ nosDalista1;
+        }
+
+        private void btnSepararLista_Click(object sender, EventArgs e)
+        {
+            DuasListas<Aluno> parEImpar = lista1.SepararListaEmDuas();
+            Exibir_Lista(parEImpar.PrimeiraLista, lsbDois);
+            Exibir_Lista(parEImpar.SegundaLista, lsbTres);
+               
+        }
+
         private void Exibir_Lista(ListaSimples<Aluno> lista,
             ListBox qualListBox)
         {

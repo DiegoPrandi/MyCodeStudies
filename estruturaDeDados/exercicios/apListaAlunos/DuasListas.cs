@@ -18,5 +18,8 @@ namespace apListaAlunos
             this.primeiraLista = primeiraLista;
             this.segundaLista = segundaLista;
         }
+
+        public ListaSimples<Dado> PrimeiraLista { get => primeiraLista; set => primeiraLista = value; }
+        public ListaSimples<Dado> SegundaLista { get => segundaLista; set => segundaLista = value; }
     }
 }
