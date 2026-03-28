@@ -4,7 +4,7 @@ intervalo51a75 = 0
 intervalo76a100 = 0
 
 n = int(input('Digite um numero:'))
-while n > 0:
+while n >= 0:
     if 0 <= n <= 25:
         intervalo0a25 += 1
     elif 26 <= n <= 50:
