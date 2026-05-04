@@ -46,7 +46,8 @@ WHERE idade < 25;
 -- 10) Altere o status_pedido para 'Entregue' em todos os pedidos feitos por clientes da cidade de 'São Paulo'.
 UPDATE pedidos 
 SET status_pedido = 'Entregue' 
-WHERE id_cliente IN (SELECT id_cliente FROM clientes WHERE cidade = 'São Paulo');
+WHERE id_cliente IN 
+(SELECT id_cliente FROM clientes WHERE cidade = 'São Paulo');
 
 -------------------------------------------------------------------------------------------------------------------
 -- DELETE

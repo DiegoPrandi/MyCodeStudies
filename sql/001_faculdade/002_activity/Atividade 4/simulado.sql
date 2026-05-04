@@ -1,3 +1,5 @@
+use exercicio_joyce;
+
 -- 1) (1,0pt) Crie para o sistema de achados e perdidos a tabela Pontos_Recolhimento 
 CREATE TABLE Pontos_Recolhimento (
     id_ponto INT AUTO_INCREMENT PRIMARY KEY,
@@ -52,13 +54,20 @@ FROM Pontos_Recolhimento;
 
 -- 9. (1,0pt) Qual comando em MySQL mostra os campos 
 -- B
-SELECT descricao, data_achado, status FROM Itens_Achados WHERE data_achado BETWEEN '2025-
-01-01' AND '2025-03-31' AND status = 'Disponível';
+SELECT descricao, data_achado, status 
+FROM Itens_Achados 
+WHERE data_achado 
+BETWEEN '2025-01-01' 
+AND '2025-03-31' 
+AND status = 'Disponível';
 
 -- 10. (1,0pt) Qual comando em MySQL mostra a quantidade de itens por categoria, exibindo os campos
 --categoria e total_itens?
 -- C
-SELECT categoria, COUNT(*) AS total_itens FROM Itens_Achados GROUP BY categoria;
+SELECT categoria, 
+COUNT(*) AS total_itens 
+FROM Itens_Achados 
+GROUP BY categoria;
 
 -- 11. (1,0pt) Qual comando em MySQL adiciona uma nova coluna
 -- B
