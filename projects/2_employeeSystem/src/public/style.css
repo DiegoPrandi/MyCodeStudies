@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #1b1f2a;
+}
+
+.container {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e9f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  margin-bottom: 14px;
+  font-size: 1.1rem;
+}
+
+.field {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd3df;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4c7dff;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  background: #2f6df6;
+  color: white;
+}
+
+button.secondary {
+  background: #eef2ff;
+  color: #24324a;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #edf0f6;
+}
+
+td .row-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.message {
+  min-height: 20px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.message.success {
+  color: #0a7f37;
+}
+
+.message.error {
+  color: #b42318;
+}
+
+.hidden {
+  display: none;
+}

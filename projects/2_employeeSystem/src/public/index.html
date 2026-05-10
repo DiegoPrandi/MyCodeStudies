@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee System</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Cadastro de Funcionarios</h1>
+
+    <section class="card">
+      <h2 id="form-title">Novo funcionario</h2>
+      <form id="employee-form">
+        <input type="hidden" id="employee-id">
+
+        <div class="field">
+          <label for="name">Nome</label>
+          <input type="text" id="name" placeholder="Ex: Ana Souza" required>
+        </div>
+
+        <div class="field">
+          <label for="position">Cargo</label>
+          <input type="text" id="position" placeholder="Ex: Desenvolvedor" required>
+        </div>
+
+        <div class="field">
+          <label for="salary">Salario</label>
+          <input type="number" id="salary" placeholder="Ex: 3500" min="0" step="0.01" required>
+        </div>
+
+        <div class="actions">
+          <button type="submit" id="submit-btn">Salvar</button>
+          <button type="button" id="cancel-edit" class="secondary hidden">Cancelar edicao</button>
+        </div>
+      </form>
+      <p id="message" class="message"></p>
+    </section>
+
+    <section class="card">
+      <div class="header-row">
+        <h2>Lista de funcionarios</h2>
+        <button id="refresh-btn" class="secondary">Atualizar lista</button>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Cargo</th>
+              <th>Salario</th>
+              <th>Acoes</th>
+            </tr>
+          </thead>
+          <tbody id="employee-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
