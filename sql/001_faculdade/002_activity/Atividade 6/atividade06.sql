@@ -106,10 +106,20 @@ FROM livros l
 LEFT JOIN autores a
 ON l.id_autor = a.id_autor;
 
--- 5) Liste os alunos que fizeram mais de um empréstimo, mostrando o nome e
+-- 15) Liste os alunos que fizeram mais de um empréstimo, mostrando o nome e
 --a quantidade.
 
 SELECT e.nome_aluno, COUNT(*) AS quantidade
 FROM emprestimos e
 GROUP BY e.nome_aluno
 HAVING COUNT(*) > 1;
+
+-- 16) Criação dos Insert
+
+INSERT INTO autores (nome_autor, nacionalidade) VALUES
+('Felipão Do Grau', 'Brasileiro');
+
+
+INSERT INTO emprestimos (id_livro, nome_aluno, data_emprestimo,
+data_devolucao) VALUES
+(2, 'Ana Souza', '2026-04-01', NULL);
