@@ -9,6 +9,7 @@ def verificarNumExiste():
     while not numVerificar.isdigit():
         print('Digite somente numeros validos')
         numVerificar = input('Digite um numero: ')
+    numVerificar = int(numVerificar)
 
     for i in range(1, 16):
         num = input(f'Digite o {i}° numero: ')
@@ -16,6 +17,7 @@ def verificarNumExiste():
         while not num.isdigit():
             print('Digite somente numeros validos')
             num = input(f'Digite o {i}° numero: ')
+        num = int(num)
 
         lista.append(num)
 

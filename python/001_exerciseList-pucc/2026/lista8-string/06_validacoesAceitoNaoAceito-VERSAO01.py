@@ -15,10 +15,11 @@ def aceitoNaoAceito():
         print('Digite somente "M" ou "F"')
         sexo = input('Digite seu sexo "M" ou "F": ')
     
-    idade = int(input('Digite sua idade: '))
+    idade = input('Digite sua idade: ')
     while not idade.isdigit(): # so pra nao quebra o codigo so pra pã
         print('Digite sua idade corretamente')
         idade = int(input('Digite sua idade: '))
+    idade = int(idade)
         
     
     if sexo.lower() == 'f' and idade < 25:
