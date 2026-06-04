@@ -14,3 +14,13 @@ def verificadorDeStrings():
 
 verificadorDeStrings()
 
+def verificadorDeStringsComMetodo():
+    string1 = input('Digite alguma coisa: ')
+    string2 = input('Digite outra coisa: ')
+    
+    if string1.endswith(string2):  # ridiculo isso auqi slk kkkkkkkkk
+        print(True)
+    else:
+        print(False)
+
+
