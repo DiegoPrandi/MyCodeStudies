@@ -32,7 +32,11 @@ def removerPessoa(pessoas):
         print('Digite o nome certo rapaiz')
         nome = input('Digite o nome da pessoa que deseja remover: ')
 
-    return nome if nome in pessoas else None
+    if nome:
+        pessoas.pop(nome)
+        print(pessoas)
+    else:
+        print('Nenhuma pessoa encontrada')
 
 def main():
     pessoas = {}  
@@ -48,10 +52,6 @@ def main():
         pessoas[nome] = [idade, cidade]
 
     nome = removerPessoa(pessoas)
-    if nome:
-        pessoas.pop(nome)
-        print(pessoas)
-    else:
-        print('Nenhuma pessoa encontrada')
+    
 
 main()

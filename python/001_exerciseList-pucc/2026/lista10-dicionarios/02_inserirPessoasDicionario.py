@@ -26,14 +26,17 @@ def lerCidade():
 def main():
     pessoas = {}  
 
-    for i in range(10):
+    for i in range(2):
         print(f'\n{i+1}° PESSOA')
 
         nome = lerNome()
         idade = lerIdade()
         cidade = lerCidade()
 
-        pessoas[nome] = [idade, cidade]
+        pessoas[nome] = {
+            'idade': idade,
+            'cidade': cidade
+        }
 
     print(pessoas)
 
