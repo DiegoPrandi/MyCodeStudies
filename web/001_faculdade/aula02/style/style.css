@@ -1,0 +1,43 @@
+/* CSS */
+
+body {
+  font-family: sans-serif;
+  background-color: beige;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 4, 255);
+}
+
+p {
+  font-size: 16px;
+}
+
+#cabecalho {
+  background-color: black;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+#rodape {
+  background-color: blue;
+  color: azure;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.caixa {
+  background-color: white;
+  width: 600px;
+  border: 1px solid green;
+  border-radius: 80px;
+  padding: 20px;
+  margin: 20px auto;
+}
