@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+.header {
+    height: 50px;
+    background-color: #151515;
+    border-bottom: 1px solid #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d5d5d5;
+}
+.navegacao {
+    height: 42px;
+    background-color: #151515;
+    border-bottom: 1px solid #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 10px;
+}
+
+.navegacao a {
+    color: #bcbcbc;
+    text-decoration: none;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+}
+.navegacao a:hover {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.principal {
+    width: 735px;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: 185px 535px;
+    gap: 28px;
+}
+
+.perfil {
+    padding-top: 5px;
+}
+
+.perfil img {
+    width: 177px;
+    height: 177px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.perfil h1 {
+    font-size: 17px;
+    color: #d5d5d5;
+    margin-bottom: 2px;
+}
+
+.nome {
+    color: #8c8c8c;
+    font-size: 10px;
+    margin-top: 12px;
+}
+
+.linha {
+    width: 177px;
+    height: 1px;
+    background-color: #303030;
+    margin: 18px 0;
+}
+.perfilInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.perfilInfo p {
+    color: #9b9b9b;
+    font-size: 10px;
+}
+
+.readme {
+    background-color: #151515;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.readmeHeader {
+    height: 36px;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    color: #9a9a9a;
+    font-family: monospace;
+    font-size: 9px;
+}
+.boasVindas {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boasVindas h2 {
+    font-family: monospace;
+    color: #ff3333;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.conteudo {
+    margin: 20px 13px 25px;
+}
+
+.conteudo h2 {
+    color: #bcbcbc;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #2d2d2d;
+    margin-bottom: 12px;
+}
+
+.conteudo ul {
+    padding-left: 18px;
+}
+
+.conteudo li {
+    color: #d0d0d0;
+    margin-bottom: 14px;
+    font-size: 9px;
+    line-height: 1.5;
+}
+
+.conteudo li p {
+    color: #9c9c9c;
+    margin-top: 3px;
+    font-size: 8px;
+}
+
+.codigo {
+    background-color: #101010;
+    border: 1px solid #292929;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.codigo p {
+    color: #d1d1d1;
+    font-family: Consolas, monospace;
+    font-size: 8px;
+    line-height: 1.7;
+    margin-bottom: 7px;
+}
+
+.codigo strong {
+    color: #f81c0c;
+    font-weight: normal;
+}
+
+.tituloequipamentos {
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 9px;
+    margin-bottom: 12px;
+}
+
+.equipamentos {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.equipamentos span {
+    background-color: #181818;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    padding: 6px 10px;
+    color: #bdbdbd;
+    font-size: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9px;
+}
+
+th,
+td {
+    border: 1px solid #303030;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #191919;
+    color: #bdbdbd;
+}
+td {
+    color: #a8a8a8;
+}
+tr:hover {
+    background-color: #1a1a1a;
+}
+
+.feitos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.feitos div {
+    background-color: #101010;
+    border: 1px solid #303030;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.feitos h3 {
+    color: #d81a1a;
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+
+.feitos p {
+    color: #969696;
+    font-size: 8px;
+    line-height: 1.5;
+}
+footer {
+    width: 735px;
+    margin: 35px auto;
+    padding: 18px 0;
+    border-top: 1px solid #292929;
+    text-align: center;
+    color: #666;
+    font-size: 9px;
+}
