@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    background-color: #1e415f;
+    color: white;
+    padding: 15px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 22px;
+}
+
+.apresentacao-texto {
+    width: 400px;
+}
+.apresentacao-texto h2 {
+    color: #1e415f;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.apresentacao-texto p {
+    margin-bottom: 25px;
+}
+.botao {
+    display: inline-block;
+    background-color: #1e415f;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+.destaque {
+    background-color: #eaf3fa;
+    border: 1px solid #6bb6f0;
+    border-radius: 6px;
+    padding: 30px 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+.numero {
+    display: block;
+    color: #1e415f;
+    font-size: 28px;
+    font-weight: bold;
+}
+.texto-alunos {
+    display: block;
+    margin-top: 5px;
+}
+
+.secao-cursos {
+    background-color: #ececec;
+    padding: 40px 20px 30px;
+}
+.secao-cursos h2 {
+    color: #1e415f;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.curso {
+    background-color: white;
+    border: 1px solid #c2bfbf;
+    border-radius: 7px;
+    padding: 20px 15px 15px;
+    width: 216px;
+}
+.curso h3 {
+    color: #1e415f;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+.curso p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.carga-horaria {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.botao-curso {
+    display: block;
+    background-color: #1e415f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
