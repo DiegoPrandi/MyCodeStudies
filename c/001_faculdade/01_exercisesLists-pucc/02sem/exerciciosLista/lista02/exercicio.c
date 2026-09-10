@@ -199,27 +199,27 @@ int validarSenha(char senha[100]) {
     return 0;
 }
 
-// int main() {
-//     char senha[100];
-//     int sucesso = 0;
+int main() {
+    char senha[100];
+    int sucesso = 0;
 
-//     for (int tentativa = 1; tentativa <= 4; tentativa++) {
+    for (int tentativa = 1; tentativa <= 4; tentativa++) {
 
-//         printf("Digite uma senha: ");
-//         scanf("%99s", senha);
+        printf("Digite uma senha: ");
+        scanf("%99s", senha);
 
-//         if (validarSenha(senha) == 1) {
-//             printf("senha cadastrada certin\n");
-//             sucesso = 1;
-//             break;
-//         } else {
-//             printf("senha invalida\n");
-//         }
-//     }
+        if (validarSenha(senha) == 1) {
+            printf("senha cadastrada certin\n");
+            sucesso = 1;
+            break;
+        } else {
+            printf("senha invalida\n");
+        }
+    }
 
-//     if (sucesso == 0) {
-//         printf("banidoooooooo\n");
-//     }
+    if (sucesso == 0) {
+        printf("banidoooooooo\n");
+    }
 
-//     return 0;
-// }
+    return 0;
+}
