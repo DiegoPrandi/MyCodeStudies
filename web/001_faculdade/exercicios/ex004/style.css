@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.campo {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input,
+.campo select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.campo span,
+#erroCondicoes {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+input.invalido,
+select.invalido {
+    border: 2px solid red;
+}
+
+.condicoes {
+    flex: 1 1 100%;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    flex: 1 1 100%;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+#resultado pre {
+    background-color: #eee;
+    padding: 10px;
+}

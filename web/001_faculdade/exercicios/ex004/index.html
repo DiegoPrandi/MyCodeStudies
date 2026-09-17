@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>StayEasy</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Solicitação de Reserva</h1>
+
+        <form id="formulario">
+            <div class="campo">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" required minlength="5" />
+                <span id="erroNome"></span>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required />
+                <span id="erroEmail"></span>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required />
+                <span id="erroTelefone"></span>
+            </div>
+
+            <div class="campo">
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" required />
+                <span id="erroNascimento"></span>
+            </div>
+
+            <div class="campo">
+                <label for="checkin">Data de check-in:</label>
+                <input type="date" id="checkin" required />
+                <span id="erroCheckin"></span>
+            </div>
+
+            <div class="campo">
+                <label for="checkout">Data de check-out:</label>
+                <input type="date" id="checkout" required />
+                <span id="erroCheckout"></span>
+            </div>
+
+            <div class="campo">
+                <label for="hospedes">Quantidade de hóspedes:</label>
+                <input type="number" id="hospedes" min="1" max="5" required />
+                <span id="erroHospedes"></span>
+            </div>
+
+            <div class="campo">
+                <label for="quarto">Tipo de quarto:</label>
+                <select id="quarto" required>
+                    <option value="">Selecione</option>
+                    <option value="Individual">Individual</option>
+                    <option value="Duplo">Duplo</option>
+                    <option value="Família">Família</option>
+                </select>
+                <span id="erroQuarto"></span>
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha para acompanhamento:</label>
+                <input type="password" id="senha" required minlength="8" />
+                <span id="erroSenha"></span>
+            </div>
+
+            <div class="campo">
+                <label for="confirmacao">Confirmação da senha:</label>
+                <input type="password" id="confirmacao" required />
+                <span id="erroConfirmacao"></span>
+            </div>
+
+            <div class="condicoes">
+                <input type="checkbox" id="condicoes" />
+                <label for="condicoes">
+                    Declaro que li e concordo com as condições da reserva.
+                </label>
+                <span id="erroCondicoes"></span>
+            </div>
+
+            <button type="submit">Solicitar reserva</button>
+        </form>
+
+        <div id="resultado"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
