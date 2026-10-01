@@ -1,0 +1,18 @@
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+#menu a::hover {
+    text-decoration: underline;
+    color: blue;
+}
