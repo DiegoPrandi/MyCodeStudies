@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listagem de Alunos</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="../js/api.js"></script>
+  <script defer src="../js/alunos-lista.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">Portal Acadêmico</a>
+      <div class="ms-auto">
+        <a class="nav-link d-inline text-white" href="listar-alunos.html">Listar alunos</a>
+        <a class="nav-link d-inline text-white" href="manipular-aluno.html">Cadastrar/Editar</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+    <section class="mb-4">
+      <h1 class="fw-bold">Alunos cadastrados</h1>
+      <p class="text-muted mb-0">
+        Página preparada para consumir a API Express de alunos usando JavaScript e <code>fetch</code>.
+      </p>
+    </section>
+
+    <section class="row g-3 mb-4">
+      <div class="col-12 col-md-3">
+        <div class="card card-resumo border-0 shadow-sm">
+          <div class="card-body">
+            <h2 class="h6 text-muted">Total</h2>
+            <p id="cardTotal" class="numero-card mb-0">-</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <div class="card card-resumo border-0 shadow-sm">
+          <div class="card-body">
+            <h2 class="h6 text-muted">Ativos</h2>
+            <p id="cardAtivos" class="numero-card mb-0">-</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <div class="card card-resumo border-0 shadow-sm">
+          <div class="card-body">
+            <h2 class="h6 text-muted">Formados</h2>
+            <p id="cardFormados" class="numero-card mb-0">-</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <div class="card card-resumo border-0 shadow-sm">
+          <div class="card-body">
+            <h2 class="h6 text-muted">Inativos</h2>
+            <p id="cardInativos" class="numero-card mb-0">-</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card border-0 shadow-sm mb-4">
+      <div class="card-body">
+        <div class="row g-3 align-items-end">
+          <div class="col-12 col-md-4">
+            <label for="filtroSituacao" class="form-label">Filtrar por situação</label>
+            <select id="filtroSituacao" class="form-select">
+              <option value="">Todas</option>
+              <option value="Ativo">Ativo</option>
+              <option value="Trancado">Trancado</option>
+              <option value="Formado">Formado</option>
+              <option value="Inativo">Inativo</option>
+            </select>
+          </div>
+
+          <div class="col-12 col-md-8 d-flex gap-2 flex-wrap">
+            <button class="btn btn-primary" onclick="aplicarFiltroSituacao()">
+              Aplicar filtro
+            </button>
+            <button class="btn btn-outline-secondary" onclick="limparFiltro()">
+              Limpar filtro
+            </button>
+            <button class="btn btn-outline-primary" onclick="carregarAlunos()">
+              Recarregar alunos
+            </button>
+            <a class="btn btn-success ms-md-auto" href="manipular-aluno.html">
+              Novo aluno
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card border-0 shadow-sm">
+      <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+        <h2 class="h5 mb-0">Listagem</h2>
+        <span class="badge text-bg-light">GET /alunos</span>
+      </div>
+
+      <div class="card-body">
+        <div id="areaMensagem" class="alert alert-info">
+          Durante a aula, a função <code>carregarAlunos()</code> será implementada para preencher esta tabela com dados da API.
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-striped table-hover align-middle">
+            <thead class="table-dark">
+              <tr>
+                <th>RA</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Curso</th>
+                <th>Semestre</th>
+                <th>Situação</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody id="tabelaAlunos">
+              <tr>
+                <td colspan="7" class="text-center text-muted py-4">
+                  Nenhum dado carregado ainda. Implemente o JavaScript para buscar os alunos na API.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal de detalhes -->
+  <div class="modal fade" id="modalDetalhesAluno" tabindex="-1" aria-labelledby="modalDetalhesAlunoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="modalDetalhesAlunoLabel">Detalhes do aluno</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <dl class="row mb-0">
+            <dt class="col-4">RA</dt>
+            <dd class="col-8" id="modalRa">-</dd>
+
+            <dt class="col-4">Nome</dt>
+            <dd class="col-8" id="modalNome">-</dd>
+
+            <dt class="col-4">E-mail</dt>
+            <dd class="col-8" id="modalEmail">-</dd>
+
+            <dt class="col-4">Curso</dt>
+            <dd class="col-8" id="modalCurso">-</dd>
+
+            <dt class="col-4">Semestre</dt>
+            <dd class="col-8" id="modalSemestre">-</dd>
+
+            <dt class="col-4">Situação</dt>
+            <dd class="col-8" id="modalSituacao">-</dd>
+          </dl>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <a id="modalLinkEditar" href="#" class="btn btn-primary">Editar aluno</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de confirmação de inativação -->
+  <div class="modal fade" id="modalInativarAluno" tabindex="-1" aria-labelledby="modalInativarAlunoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="modalInativarAlunoLabel">Confirmar inativação</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-0">
+            Deseja realmente inativar o aluno de RA <strong id="raInativacao">-</strong>?
+          </p>
+          <p class="text-muted small mt-2 mb-0">
+            Esta ação chamará a rota <code>DELETE /alunos/:ra</code> e alterará a situação para <strong>Inativo</strong>.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-danger" onclick="confirmarInativacao()">Inativar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">Introdução às Tecnologias Web — Aula 09</p>
+  </footer>
+
+</body>
+</html>

@@ -1,7 +1,9 @@
 import express, { Request, Response } from 'express';
+import cors from 'cors';
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 const PORT = 3000;
 
 type cursoAluno = 'Engenharia de Software' | 'Sistema de Informação';
