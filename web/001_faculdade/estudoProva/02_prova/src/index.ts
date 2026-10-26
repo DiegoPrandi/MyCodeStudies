@@ -15,7 +15,19 @@ const armarios = [
     { id: 1, local: 'Sala A', capacidade: 8, ocupados: 3, ativo: true },
     { id: 2, local: 'Sala B', capacidade: 5, ocupados: 0, ativo: true },
 ];
+
 let proximoId = 3;
+
+app.get('/inscricoes', (req: Request, res: Response) => {
+    const oficina = req.query.oficina;
+
+    if (oficina) {
+        const filtrados = inscricoes.filter((item) => item.oficina === oficina);
+        return res.status(200).json(filtrados);
+    }
+
+    return res.status(200).json(inscricoes);
+});
 
 app.get('/inscricoes/:id', (req: Request, res: Response) => {
     const id = Number(req.params.id);
