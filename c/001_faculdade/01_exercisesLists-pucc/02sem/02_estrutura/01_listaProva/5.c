@@ -18,7 +18,7 @@ void copiarPilha(Pilha* p1, Pilha* copia){
 
     while(!pilhaVazia(p1)){
         int valorDesempilhado = desempilhar(p1);
-        empilhar(novaPilha, valorDesempilhado);
+        empilhar(&novaPilha, valorDesempilhado);
     }
 
     while(!pilhaVazia(&novaPilha)){

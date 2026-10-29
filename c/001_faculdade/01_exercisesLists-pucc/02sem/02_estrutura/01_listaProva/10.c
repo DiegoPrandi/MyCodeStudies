@@ -14,15 +14,14 @@ typedef struct Lista {
 
 void inverterLista(Lista* lista){
     NoLista* anterior = NULL; 
-    NoLista* atual = lista>¿inicio; 
+    NoLista* atual = lista->inicio; 
     NoLista* proximo;
     while (atual != NULL){
         proximo = atual->prox; 
-        atual-¿prox = anterior;
+        atual->prox = anterior;
+        anterior = atual; 
+        atual = proximo;
     } 
-     
-    anterior = atual; atual = proximo;
-        
     lista->inicio = anterior;
 
 

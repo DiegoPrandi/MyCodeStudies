@@ -1,0 +1,49 @@
+SISTEMA DE ATENDIMENTO HOSPITALAR
+
+Implemente um sistema simplificado de espera para atendimento hospitalar. Os pacientes devem ser armazenados em um VETOR alocado dinamicamente.
+
+Arquivos:
+- atendimento.h: estruturas e prototipos prontos (nao modificar).
+- atendimento.c: implemente as sete funcoes indicadas.
+- main.c: complete as chamadas indicadas.
+
+Regras de cada funcao:
+1. Use malloc para alocar a struct Atendimento e o vetor de pacientes.
+   Inicialize quantidade=0, capacidade e proximaSenha=1.
+2. Cadastre os pacientes no final do vetor (na primeira posição disponível) 
+   e gere senhas sequenciais (1, 2, 3, ...), sem reutiliza-las. 
+   Se o vetor estiver cheio, imprima uma mensagem.
+3. Imprima os pacientes na ordem do vetor, mostrando senha, nome e idade.
+4. Consulte o primeiro paciente sem remove-lo. Copie seus dados para o
+   parametro de saida. Retorne 1 se houver paciente ou 0 caso contrario.
+5. Busque um paciente pela senha e retorne seu indice ou -1.
+6. Libere o vetor de pacientes e a struct Atendimento e atribua NULL ao ponteiro atendimento.
+7. DESAFIO: Chame o primeiro paciente para atendimento. Copie-o para o parametro
+   de saida, remova-o deslocando os demais uma posicao para a esquerda,
+   diminua quantidade e preserve a ordem dos outros pacientes.
+   Retorne 1 se houve atendimento ou 0 se não houver pacientes aguardando.
+
+Regras adicionais:
+- A capacidade do vetor nao deve ser alterada durante a execucao.
+- O programa deve funcionar sem interacao pelo teclado (sem scanf): use os dados do main.c.
+
+Resultados esperados (linhas principais; a impressao pode variar):
+- Pacientes na espera: 6
+- Proximo paciente: 1 - Alfredo
+- Indice da senha 2: 1
+- Indice da senha 99: -1
+- Tentativa sem vaga: O vetor está cheio!
+- Chamado: 1 - Alfredo
+- Chamado: 2 - Bruno
+- Chamado: 3 - Claudio
+- Pacientes restantes: 3
+
+Ordem final de espera:
+- Darcy (senha 4)
+- Ester (senha 5)
+- Jeronimo (senha 6)
+
+- Estrutura liberada: sim
+Para compilar (apos completar as funcoes e chamadas):
+    gcc main.c atendimento.c -o atendimento
+    ./atendimento
